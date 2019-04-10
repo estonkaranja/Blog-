@@ -1,0 +1,82 @@
+#show-contact {
+  display: none;
+}
+
+.contact {
+  cursor: col-resize;
+  color: #0f0e0f;
+}
+
+.contact:hover {
+  text-decoration: underline;
+}  
+.Questions-box{
+  background-origin: padding-box;
+  background-color: black;
+padding: 4px;
+}
+.wrap{
+  width:450px;
+  margin: left[];
+  background: #323232;
+  margin-top: 10px;
+  padding: 18px;
+}
+form{
+  padding: 80px;
+  font-family: arial;
+  border: 1px dotted white;
+  margin: 10px;
+}
+.container {
+  text-align: left;
+  width: 430px;
+}
+div {
+    text-align: center;
+    font-size: 36px;    
+}
+
+h1{
+  font-family: 'Monoton', cursive;
+  font-size: 2rem;
+  text-shadow: 1px 0 rgb(0, 0, 0,);
+  color: rgb(177, 31, 31);
+}
+p{
+    width: 1120px;
+    padding: 80px;
+    margin: 2px;
+    border: 1px solid whitesmoke;
+    color: #323232;
+    font-size: 20px;
+    text-align: left;
+    font-family: 'Cuprum', sans-serif;
+    color: black;
+}
+img{
+  width: 350px;
+  padding: 10px;
+}
+
+
+.footer-center{
+  text-align: center;
+  margin-top: 20%;
+}
+body{
+  margin:0;
+  color:#6a6f8c;
+  background: #c21500;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ffc500, #c21500);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffc500, #c21500); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font:400 10px 'Open Sans',sans-serif;
+}
+footer{
+     margin-top: 10%;
+   font-size: 40px;
+  border-radius: 5px;
+  padding: 30px;
+}
+
+ 

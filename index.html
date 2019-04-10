@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootsrap/3.3.7/css/bootstrap.min.css"
+        intergrety="trap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Erica+one|ROboto" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="Css/style.css">
+    <!-- getting the fonts grom google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Cuprum|Monoton" rel="stylesheet">
+    <script src="js/scripts.js" type="text/javascripts"></script>
+    </script>
+    <scripts src="http://code.jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcLzy3oi35EouyE="
+        crossorigin="anonymous"></scripts>
+    <title>Home | Blogpage.</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-1zN37f5QGtyHgisS14W3ExzMWZxybE15J5EsQpqS+oqd12jhCu+A56Ebc1zFSJ" crossorigin="anonymous">
+<style>
+body{
+background: #EB3349;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F45C43, #EB3349);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F45C43, #EB3349); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+}
+
+.wrap1{
+    width: 10px;
+    Margin: auto;
+    background:darksalmon;
+    margin-top: 10px;
+    padding: 10px;
+    line-height: 10px;
+}
+.header{
+    width: 50px;
+    Margin: auto;
+    background:deeppink;
+}
+.Wrap{
+    width: 490px;
+    Margin: auto;
+    background:coral;
+    margin-top: 10px;
+    padding: 10px;
+    line-height: 60px;
+}
+form{
+    padding: 10px;
+    font-family: arial;
+    border: 1px dotted white;
+    margin: 10px;
+}
+h2{
+    text-align: center;
+    background:orange;
+    color:white;
+    padding: 10px;
+    border-radius: 10px;
+}
+input{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+}
+input[type=text], input[type=email], input[type=Number], input[type=password]{
+    width: 90px;
+}
+input[type=submit]{
+    width: 95px;
+    background-color:crimson;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    color:darkkhaki;
+}
+input[type=submit] :hover{
+    background:darkorchid
+}
+.hover submit{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 80px;
+    position: relative;
+    colour: pink;
+}
+.hover-submit::after{
+    content:".";
+    width: 5px;
+    height:7px;
+   background: #FF512F;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #DD2476, #FF512F);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #DD2476, #FF512F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+bottom: 05; left: 50%;
+border-radius: 10px;
+transition: all 500m, ease;
+}
+.hover-border:hover::after{
+left: 0%;
+width: 100%
+}
+
+    h1{
+        text-align: right;
+left: 12px;
+margin-right: 12px;
+    }
+select{
+    background: #232526;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+padding: 10px;
+width: 45%;
+border-radius: 20px;
+
+}
+footer{
+    background: #EB3349;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F45C43, #EB3349);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F45C43, #EB3349); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+div{
+background: #1A2980;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #26D0CE, #1A2980);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #26D0CE, #1A2980); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+p{
+    background: #1D2B64;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F8CDDA, #1D2B64);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F8CDDA, #1D2B64); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+option[type=Home], option[type=About] option[type=Contact], option[type=Contact]{
+    width: 60%;
+}
+option[type=link]{
+    width: 45%;
+    background:orange;
+    cursor: pointer;
+    font-size: 8px;
+    font-weight: bold;
+    color: White;
+}
+option[type=submit] hover{
+    background: Yellow;
+}
+
+
+    </style>
+  
+    </head>
+
+
+<body>
+    <div class="container">
+        <!--content here-->
+    <div class="Wrap1">
+        <form>
+            <marquee scrollamount="4"  direction="right" behaviour="scroll">
+<h1><Strong>AutoBlogs</Strong></h1>
+</marquee>
+
+<nav><img src="images/Screenshot_20190302-215411~2.png"alt="photo of image"></nav>
+<nav>    
+    </div>  
+        </div>
+</form>
+<div class="Wrap">
+    <form>
+<input type="text" name="yourname" placeholder="Yourname">
+<input type="Email" name="email" placeholder="Email">
+<input type="number" name="mnumber" placeholder="MObilenumber">
+<input type="password" name="password" placeholder="Password">
+<input type="password" name="confirmpassword" placeholder="confirmPassword">
+<br>
+<br>
+<span style="font-size: 18px;">Date of Birth</span>
+<br>
+<select name="DoBmonth">
+    <option>Month</option>
+    <option value="january">January</option>
+    <option value="febuary">February</option>
+    <option value="march">March</option>
+    <option value="april">April</option>
+    <option value="may">May</option>
+    <option value="june">June</option>
+    <option value="july">July</option>
+    <option value="august">August</option>
+    <option value="september">September</option>
+    <option value="october">October</option>
+    <option value="november">November</option>
+    <option value="december">December</option>
+
+</select>
+
+<select name="DoBday">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="10">10</option>
+    <option value="11">11</option>
+    <option value="12">12</option>
+    <option value="13">13</option>
+    <option value="14">14</option>
+    <option value="15">15</option>
+    <option value="16">16</option>
+    <option value="17">17</option>
+    <option value="18">18</option>
+    <option value="19">19</option>
+    <option value="20">20</option>
+    <option value="21">21</option>
+    <option value="22">22</option>
+    <option value="23">23</option>
+    <option value="24">24</option>
+    <option value="25">25</option>
+    <option value="26">26</option>
+    <option value="27">27</option>
+    <option value="28">28</option>
+    <option value="29">29</option>
+    <option value="30">30</option>
+    <option value="31">31</option>
+</select>
+<select name="DoB year">
+    <option>Year</option>
+    <option value="2001">2001</option>
+    <option value="1999">1999</option>
+    <option value="1998">1998</option>
+    <option value="1997">1997</option>
+    <option value="1996">1996</option>
+    <option value="1995">1995</option>
+    <option value="1994">1994</option>
+</select>
+<br>
+<br>
+<input type="radio" name="male" value="male">Male
+<input type="radio" name="female" value="female">Female
+<br>
+<input type="checkbox">I Agree to terms and Conditions used
+<br>
+<input type="submit" value="submit Now">
+</div>
+</form>
+    <div class="wrap">
+        <header>
+            <div class="logo">
+      
+            <center>
+                <strong>
+                    <i class="fas fa-band-aid"><strong>Welcome</strong></i>
+                    <i class="fas fa-Garage"><strong>To</strong></i>
+                    <i class="fas fa-clock"><strong>Our</strong></i>
+                    <i class="fas fa-bus"><strong>Favorite Blog</strong></i>
+                    <i class="fas fa-bus"><strong>Page Enjoy</strong></i>
+                </strong>
+            </center>
+     </nav>
+ <background><img src="images/Screenshot_20190302-215411~2.png"alt="photo of image"></background>
+ 
+            <center>
+                <select class="form-control" id="Types of list">
+                    <nav>
+                        <option><a href="https://AutoBlog.com">Home</a></button></option>
+                        <option value="1" <a href="https://AutoBlog.com">Login</option>
+                        <option><a href="https://AutoBlog.com">Account</a></button></option>
+                        <option><a href="https://AutoBlog.com">Sign in</a></button></option>
+                    </nav>
+                </select>
+                <select class="form-control" id="Types of list">
+                    <option value="1" <a href="https://AutoBlog.com">About.</option>
+                    <option value="1" <a href="https://AutoBlog.com">Duration</option>
+                    <option value="2" <a href="https://AutoBlog.com">Quality</option>
+                    <option value="3" <a href="https://AutoBlog.com">Licisense</option>
+                    <option value="4" <a href="https://AutoBlog.com">Copyright</option>
+                    
+                        <div class="story">
+                        <div class="uye-islemleri">
+                               
+
+                        
+                    
+
+                </select>
+                <select class="form-control" id="Types o contacts">
+                    <option value="1" <a href="https://AutoBlog.com">Contacts.</option>
+                    <option value="1" <a href="https://AutoBlog.com">About. us</option>
+                    <option value="2" <a href="https://AutoBlog.com">Free call</option>
+                    <option value="3" <a href="https://AutoBlog.com">Emergency</option>
+                    <option value="4" <a href="https://AutoBlog.com">Help line</option>
+                    </div>
+                </div>
+                    </select>
+                <header>
+
+
+
+
+                    <a class="btn btn-primary" href="https://AutoBlog.com" role="button">Link</a>
+
+            </center>
+
+            <header>
+                <main>
+
+                    <div id="story">
+                        <h1><strong>AutoBlog.</strong></h1>
+
+                        
+
+                        <div id="stroy">
+                            <h2>The Most visited Site</h2>
+                            <p>
+                                This is our first web blog together that is meant of having a very good portfolio<a
+                                    href="www.AutoBlogs.com">Click here.
+                                </a>
+
+                            </p>
+                        </div>
+                        <div id="stroy">
+                            <h2><strong>Commence with us</strong></h2>
+                            <p>we have alot of affordable cars and machinary that help more visit us on<a
+                                    href="www.AutoBlogs.com">Click here.</a></p>
+                        </div>
+                
+                
+                    <div id="story">
+                        <h2><strong>Ads</strong></h2>
+                        <p>We us AutoBlogs, <span class="person1"></span> and<span class="player2"></span> are hosting
+                            events
+                            and showrooms
+                            in different areas<span class="animal"></span>All in our
+                            county<strong>Nairobi</strong>"<span class="exclamation"></span>",<span
+                                class="person1"></span>
+                            All this is all in one and affordable prices that your pockects will be favoured<span
+                                class="verb"></span> Foever we are going to serve you to your satisfaction,<span
+                                class="person1"></span> And<span class="person2"></span> the government of kenya has our
+                            approval of selling the cars
+                            <span class="noun"></span>
+                        </p>
+                    </div>
+                    <div id="story">
+                        <h2><strong>Archieves</strong></h2>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="flavor" value="AutoBlogs." checked><a
+                                    href="www.AutoBlogs.com">Autoblogs.</label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="flavor" value="Carhires" checked><a
+                                    href="www.carhire.com">Carhire</label>
+                        </div>
+
+
+                    </div>
+    </div>
+<div>
+
+    </main>
+    </header>
+
+        <footer>
+
+       <p text-align="center">copyright &copy
+            **MIT** LICESENCE
+            : designed by Eston Karanja</p>
+
+    </footer>
+</center>
+
+
+
+    </header>
+
+
+
+
+    </footer>
+
+</body>
+
+
+</html>
